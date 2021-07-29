@@ -1,0 +1,22 @@
+[
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_curiosity.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_curiosity.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_opportunity.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_opportunity.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_spirit.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_spirit.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\rover_item_design.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\rover_item_design.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]
