@@ -117,9 +117,17 @@ class SpiritFragment : Fragment() {
                     roverAdapter.updateList(resultList)
                 }
                 for (item in resultList) {
-                    if (selectedItem == item.camera.name) {
+                    if(selectedItem == item.camera.name){
                         filteredList.add(item)
                         roverAdapter.updateList(filteredList)
+
+                    }
+                    else if(selectedItem == "ALL"){
+                        roverAdapter.updateList(resultList)
+                    }
+                    else{
+                        roverAdapter.updateList(filteredList)
+
                     }
                 }
 

@@ -1,21 +1,9 @@
 com/basakyardim/appcentnasasampletask/DataBindingTriggerClass.java
  com.basakyardim.appcentnasasampletask.DataBindingTriggerClass
-com/basakyardim/appcentnasasampletask/BuildConfig.java
- com.basakyardim.appcentnasasampletask.BuildConfig
-androidx/databinding/DataBinderMapperImpl.java
- androidx.databinding.DataBinderMapperImpl
-androidx/databinding/library/baseAdapters/BR.java
- androidx.databinding.library.baseAdapters.BR
-com/basakyardim/appcentnasasampletask/BR.java
- com.basakyardim.appcentnasasampletask.BR
 com/basakyardim/appcentnasasampletask/databinding/FragmentOpportunityBinding.java
  com.basakyardim.appcentnasasampletask.databinding.FragmentOpportunityBinding
-com/basakyardim/appcentnasasampletask/databinding/FragmentCuriosityBindingImpl.java
- com.basakyardim.appcentnasasampletask.databinding.FragmentCuriosityBindingImpl
-com/basakyardim/appcentnasasampletask/DataBinderMapperImpl.java
- com.basakyardim.appcentnasasampletask.DataBinderMapperImpl
- com.basakyardim.appcentnasasampletask.DataBinderMapperImpl$InnerBrLookup
- com.basakyardim.appcentnasasampletask.DataBinderMapperImpl$InnerLayoutIdLookup
+com/basakyardim/appcentnasasampletask/BuildConfig.java
+ com.basakyardim.appcentnasasampletask.BuildConfig
 com/basakyardim/appcentnasasampletask/databinding/SpinnerItemBinding.java
  com.basakyardim.appcentnasasampletask.databinding.SpinnerItemBinding
 com/basakyardim/appcentnasasampletask/databinding/ActivityMainBinding.java
@@ -24,8 +12,6 @@ com/basakyardim/appcentnasasampletask/databinding/CustomPopupBinding.java
  com.basakyardim.appcentnasasampletask.databinding.CustomPopupBinding
 com/basakyardim/appcentnasasampletask/databinding/FragmentCuriosityBinding.java
  com.basakyardim.appcentnasasampletask.databinding.FragmentCuriosityBinding
-androidx/databinding/DataBindingComponent.java
- androidx.databinding.DataBindingComponent
 com/basakyardim/appcentnasasampletask/databinding/RoverItemDesignBinding.java
  com.basakyardim.appcentnasasampletask.databinding.RoverItemDesignBinding
 com/basakyardim/appcentnasasampletask/databinding/FragmentSpiritBinding.java

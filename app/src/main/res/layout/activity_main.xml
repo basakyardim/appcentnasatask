@@ -15,7 +15,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:tabIndicatorColor="#FFA000"
+        app:tabIndicatorColor="#F55600"
+        app:tabIndicatorHeight="3dp"
         app:tabTextColor="#FFFFFF" />
 
     <androidx.viewpager2.widget.ViewPager2

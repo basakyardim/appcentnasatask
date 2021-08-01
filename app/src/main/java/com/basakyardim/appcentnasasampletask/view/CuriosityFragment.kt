@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.AbsListView
 import android.widget.AdapterView
 import android.widget.ArrayAdapter
+import android.widget.Toast
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
@@ -99,13 +100,19 @@ class CuriosityFragment : Fragment() {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedItem = parent?.getItemAtPosition(position).toString()
                 filteredList.clear()
-                if(selectedItem == "ALL"){
-                    roverAdapter.updateList(resultList)
-                }
+
                 for (item in resultList){
                     if(selectedItem == item.camera.name){
                         filteredList.add(item)
                         roverAdapter.updateList(filteredList)
+
+                    }
+                    else if(selectedItem == "ALL"){
+                        roverAdapter.updateList(resultList)
+                    }
+                    else{
+                        roverAdapter.updateList(filteredList)
+
                     }
                 }
 

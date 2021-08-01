@@ -95,13 +95,19 @@ class OpportunityFragment : Fragment() {
             override fun onItemSelected(parent: AdapterView<*>?, view: View?, position: Int, id: Long) {
                 val selectedItem = parent?.getItemAtPosition(position).toString()
                 filteredList.clear()
-                if(selectedItem == "ALL"){
-                    roverAdapter.updateList(resultList)
-                }
+
                 for (item in resultList){
                     if(selectedItem == item.camera.name){
                         filteredList.add(item)
                         roverAdapter.updateList(filteredList)
+
+                    }
+                    else if(selectedItem == "ALL"){
+                        roverAdapter.updateList(resultList)
+                    }
+                    else{
+                        roverAdapter.updateList(filteredList)
+
                     }
                 }
 
