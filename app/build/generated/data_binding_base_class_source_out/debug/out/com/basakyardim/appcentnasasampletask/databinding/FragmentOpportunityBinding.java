@@ -4,7 +4,7 @@ package com.basakyardim.appcentnasasampletask.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -23,13 +23,13 @@ public final class FragmentOpportunityBinding implements ViewBinding {
   public final RecyclerView opportunityList;
 
   @NonNull
-  public final ProgressBar progressbarOpportunity;
+  public final Spinner spinnerOpportunity;
 
   private FragmentOpportunityBinding(@NonNull ConstraintLayout rootView,
-      @NonNull RecyclerView opportunityList, @NonNull ProgressBar progressbarOpportunity) {
+      @NonNull RecyclerView opportunityList, @NonNull Spinner spinnerOpportunity) {
     this.rootView = rootView;
     this.opportunityList = opportunityList;
-    this.progressbarOpportunity = progressbarOpportunity;
+    this.spinnerOpportunity = spinnerOpportunity;
   }
 
   @Override
@@ -65,14 +65,14 @@ public final class FragmentOpportunityBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.progressbarOpportunity;
-      ProgressBar progressbarOpportunity = rootView.findViewById(id);
-      if (progressbarOpportunity == null) {
+      id = R.id.spinnerOpportunity;
+      Spinner spinnerOpportunity = rootView.findViewById(id);
+      if (spinnerOpportunity == null) {
         break missingId;
       }
 
       return new FragmentOpportunityBinding((ConstraintLayout) rootView, opportunityList,
-          progressbarOpportunity);
+          spinnerOpportunity);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

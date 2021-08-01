@@ -16,8 +16,12 @@ com/basakyardim/appcentnasasampletask/DataBinderMapperImpl.java
  com.basakyardim.appcentnasasampletask.DataBinderMapperImpl
  com.basakyardim.appcentnasasampletask.DataBinderMapperImpl$InnerBrLookup
  com.basakyardim.appcentnasasampletask.DataBinderMapperImpl$InnerLayoutIdLookup
+com/basakyardim/appcentnasasampletask/databinding/SpinnerItemBinding.java
+ com.basakyardim.appcentnasasampletask.databinding.SpinnerItemBinding
 com/basakyardim/appcentnasasampletask/databinding/ActivityMainBinding.java
  com.basakyardim.appcentnasasampletask.databinding.ActivityMainBinding
+com/basakyardim/appcentnasasampletask/databinding/CustomPopupBinding.java
+ com.basakyardim.appcentnasasampletask.databinding.CustomPopupBinding
 com/basakyardim/appcentnasasampletask/databinding/FragmentCuriosityBinding.java
  com.basakyardim.appcentnasasampletask.databinding.FragmentCuriosityBinding
 androidx/databinding/DataBindingComponent.java

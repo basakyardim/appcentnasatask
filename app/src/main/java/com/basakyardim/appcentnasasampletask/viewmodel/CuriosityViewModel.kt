@@ -17,9 +17,9 @@ class CuriosityViewModel : ViewModel() {
 
     val roversLiveData = MutableLiveData<List<Photo>>()
 
-    fun getRoversFromApi(){
+    fun getRoversFromApi(page:Int){
         disposable.add(
-            apiService.getData("curiosity",1000,1)
+            apiService.getData("curiosity",1000,page)
                 .subscribeOn(Schedulers.newThread())
                 .observeOn(AndroidSchedulers.mainThread())
                 .subscribeWith(object : DisposableSingleObserver<RoverModel>(){

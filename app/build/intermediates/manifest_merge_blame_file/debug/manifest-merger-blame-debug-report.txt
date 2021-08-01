@@ -59,15 +59,6 @@
 35-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\54d43c9e981a09f95cfdedd996e0589e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
 36            android:multiprocess="true" />
 36-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\54d43c9e981a09f95cfdedd996e0589e\jetified-lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
-37
-38        <service
-38-->[androidx.room:room-runtime:2.3.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\8573d5c44ae1e1bb184c4b5fb953ae6e\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
-39            android:name="androidx.room.MultiInstanceInvalidationService"
-39-->[androidx.room:room-runtime:2.3.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\8573d5c44ae1e1bb184c4b5fb953ae6e\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
-40            android:directBootAware="true"
-40-->[androidx.room:room-runtime:2.3.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\8573d5c44ae1e1bb184c4b5fb953ae6e\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
-41            android:exported="false" />
-41-->[androidx.room:room-runtime:2.3.0] C:\Users\basak.yardim\.gradle\caches\transforms-2\files-2.1\8573d5c44ae1e1bb184c4b5fb953ae6e\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
-42    </application>
-43
-44</manifest>
+37    </application>
+38
+39</manifest>

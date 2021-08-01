@@ -14,7 +14,8 @@ public class FragmentCuriosityBindingImpl extends FragmentCuriosityBinding  {
     static {
         sIncludes = null;
         sViewsWithIds = new android.util.SparseIntArray();
-        sViewsWithIds.put(R.id.curiosityList, 1);
+        sViewsWithIds.put(R.id.spinnerCuriosity, 1);
+        sViewsWithIds.put(R.id.curiosityList, 2);
     }
     // views
     @NonNull
@@ -25,11 +26,12 @@ public class FragmentCuriosityBindingImpl extends FragmentCuriosityBinding  {
     // Inverse Binding Event Handlers
 
     public FragmentCuriosityBindingImpl(@Nullable androidx.databinding.DataBindingComponent bindingComponent, @NonNull View root) {
-        this(bindingComponent, root, mapBindings(bindingComponent, root, 2, sIncludes, sViewsWithIds));
+        this(bindingComponent, root, mapBindings(bindingComponent, root, 3, sIncludes, sViewsWithIds));
     }
     private FragmentCuriosityBindingImpl(androidx.databinding.DataBindingComponent bindingComponent, View root, Object[] bindings) {
         super(bindingComponent, root, 0
-            , (androidx.recyclerview.widget.RecyclerView) bindings[1]
+            , (androidx.recyclerview.widget.RecyclerView) bindings[2]
+            , (android.widget.Spinner) bindings[1]
             );
         this.mboundView0 = (androidx.constraintlayout.widget.ConstraintLayout) bindings[0];
         this.mboundView0.setTag(null);

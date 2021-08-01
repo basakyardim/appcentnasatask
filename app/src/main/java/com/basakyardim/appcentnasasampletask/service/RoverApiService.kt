@@ -1,14 +1,10 @@
 package com.basakyardim.appcentnasasampletask.service
 
-import androidx.paging.PagingSource
-import androidx.paging.PagingState
-import com.basakyardim.appcentnasasampletask.model.Photo
 import com.basakyardim.appcentnasasampletask.model.RoverModel
 import io.reactivex.Single
 import retrofit2.Retrofit
 import retrofit2.adapter.rxjava2.RxJava2CallAdapterFactory
 import retrofit2.converter.gson.GsonConverterFactory
-import java.lang.Exception
 
 class RoverApiService {
 

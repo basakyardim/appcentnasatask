@@ -4,6 +4,7 @@ package com.basakyardim.appcentnasasampletask.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.databinding.DataBindingUtil;
@@ -17,10 +18,14 @@ public abstract class FragmentCuriosityBinding extends ViewDataBinding {
   @NonNull
   public final RecyclerView curiosityList;
 
+  @NonNull
+  public final Spinner spinnerCuriosity;
+
   protected FragmentCuriosityBinding(Object _bindingComponent, View _root, int _localFieldCount,
-      RecyclerView curiosityList) {
+      RecyclerView curiosityList, Spinner spinnerCuriosity) {
     super(_bindingComponent, _root, _localFieldCount);
     this.curiosityList = curiosityList;
+    this.spinnerCuriosity = spinnerCuriosity;
   }
 
   @NonNull

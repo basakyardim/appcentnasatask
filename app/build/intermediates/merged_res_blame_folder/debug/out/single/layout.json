@@ -4,6 +4,14 @@
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_curiosity.xml"
     },
     {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\spinner_item.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\custom_popup.xml",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\custom_popup.xml"
+    },
+    {
         "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\fragment_opportunity.xml",
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_opportunity.xml"
     },

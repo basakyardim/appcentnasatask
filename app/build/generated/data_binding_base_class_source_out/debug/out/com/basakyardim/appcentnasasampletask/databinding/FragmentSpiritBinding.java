@@ -4,7 +4,7 @@ package com.basakyardim.appcentnasasampletask.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ProgressBar;
+import android.widget.Spinner;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -20,15 +20,15 @@ public final class FragmentSpiritBinding implements ViewBinding {
   private final ConstraintLayout rootView;
 
   @NonNull
-  public final ProgressBar progressbarSpirit;
+  public final Spinner spinnerSpirit;
 
   @NonNull
   public final RecyclerView spiritList;
 
-  private FragmentSpiritBinding(@NonNull ConstraintLayout rootView,
-      @NonNull ProgressBar progressbarSpirit, @NonNull RecyclerView spiritList) {
+  private FragmentSpiritBinding(@NonNull ConstraintLayout rootView, @NonNull Spinner spinnerSpirit,
+      @NonNull RecyclerView spiritList) {
     this.rootView = rootView;
-    this.progressbarSpirit = progressbarSpirit;
+    this.spinnerSpirit = spinnerSpirit;
     this.spiritList = spiritList;
   }
 
@@ -59,9 +59,9 @@ public final class FragmentSpiritBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
-      id = R.id.progressbarSpirit;
-      ProgressBar progressbarSpirit = rootView.findViewById(id);
-      if (progressbarSpirit == null) {
+      id = R.id.spinnerSpirit;
+      Spinner spinnerSpirit = rootView.findViewById(id);
+      if (spinnerSpirit == null) {
         break missingId;
       }
 
@@ -71,7 +71,7 @@ public final class FragmentSpiritBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentSpiritBinding((ConstraintLayout) rootView, progressbarSpirit, spiritList);
+      return new FragmentSpiritBinding((ConstraintLayout) rootView, spinnerSpirit, spiritList);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

@@ -36,6 +36,10 @@
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_ic_baseline_cancel_24.xml.flat",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\drawable\\ic_baseline_cancel_24.xml"
+    },
+    {
         "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
     },
@@ -60,8 +64,20 @@
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\fragment_spirit.xml"
     },
     {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_spinner_item.xml.flat",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\spinner_item.xml"
+    },
+    {
         "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-hdpi_ic_launcher.png.flat",
         "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\layout_custom_popup.xml.flat",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\layout\\custom_popup.xml"
+    },
+    {
+        "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\drawable_border_spinner.xml.flat",
+        "source": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\src\\main\\res\\drawable\\border_spinner.xml"
     },
     {
         "merged": "C:\\Users\\basak.yardim\\Desktop\\Android_ileri_seviye\\AppcentNasaSampleTask\\app\\build\\intermediates\\res\\merged\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
